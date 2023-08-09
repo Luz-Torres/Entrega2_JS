@@ -1,0 +1,25 @@
+/* despues agregar paleta de colores completa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #131515;
+}
+
+.conteiner{
+    place-items: center;
+    width: 50%;
+    margin: 25%;
+    padding: 28px;
+    border-radius: 15px;
+    background-color: #339989;
+    color: #fffafb;
+}
